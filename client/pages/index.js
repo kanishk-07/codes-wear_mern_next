@@ -1,5 +1,7 @@
 import Head from 'next/head'
-import Script from 'next/script'
+import Image from 'next/image'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
 	return (
@@ -9,15 +11,17 @@ export default function Home() {
 				<meta name="description" content="Codeswear - ecommerce for nerds" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			{/* <div className='bg-green-500'>
-				<p>Hello</p>
-			</div> */}
-			<div className='bg-red'></div>
-
-			
+			<Navbar/>
+			<div>
+				<Image src='/home.jpg' alt='' width={1366} height={100} />
+			</div>
+			<Footer/>
 		</div>
 	)
 }
+
+// tailwind suggestions show ctrl+space
+
 /*
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
