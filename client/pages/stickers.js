@@ -2,16 +2,16 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Mugs = () => {
-    return (
-        <section className="text-gray-600 body-font">
+const Stickers = () => {
+  return (
+    <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-wrap -m-4">
 
                     <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg mx-7 my-3">
                         <Link href={'/product/wear-the-code'}>
                             <div className="block relative rounded overflow-hidden">
-                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/718Zji35YcL._SX569_.jpg" />
+                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/A1cLtz3LQbL._SX450_.jpg" />
                             </div>
                             <div className="mt-4">
                                 <h2 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirt</h2>
@@ -24,7 +24,7 @@ const Mugs = () => {
                     <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg mx-7 my-3">
                         <Link href={'/product/wear-the-code'}>
                             <div className="block relative rounded overflow-hidden">
-                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/718Zji35YcL._SX569_.jpg" />
+                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/A1cLtz3LQbL._SX450_.jpg" />
                             </div>
                             <div className="mt-4">
                                 <h2 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirt</h2>
@@ -37,7 +37,7 @@ const Mugs = () => {
                     <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg mx-7 my-3">
                         <Link href={'/product/wear-the-code'}>
                             <div className="block relative rounded overflow-hidden">
-                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/718Zji35YcL._SX569_.jpg" />
+                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/A1cLtz3LQbL._SX450_.jpg" />
                             </div>
                             <div className="mt-4">
                                 <h2 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirt</h2>
@@ -50,7 +50,7 @@ const Mugs = () => {
                     <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg mx-7 my-3">
                         <Link href={'/product/wear-the-code'}>
                             <div className="block relative rounded overflow-hidden">
-                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/718Zji35YcL._SX569_.jpg" />
+                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/A1cLtz3LQbL._SX450_.jpg" />
                             </div>
                             <div className="mt-4">
                                 <h2 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirt</h2>
@@ -63,7 +63,7 @@ const Mugs = () => {
                     <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg mx-7 my-3">
                         <Link href={'/product/wear-the-code'}>
                             <div className="block relative rounded overflow-hidden">
-                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/718Zji35YcL._SX569_.jpg" />
+                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/A1cLtz3LQbL._SX450_.jpg" />
                             </div>
                             <div className="mt-4">
                                 <h2 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirt</h2>
@@ -76,7 +76,7 @@ const Mugs = () => {
                     <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg mx-7 my-3">
                         <Link href={'/product/wear-the-code'}>
                             <div className="block relative rounded overflow-hidden">
-                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/718Zji35YcL._SX569_.jpg" />
+                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/A1cLtz3LQbL._SX450_.jpg" />
                             </div>
                             <div className="mt-4">
                                 <h2 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirt</h2>
@@ -89,7 +89,7 @@ const Mugs = () => {
                     <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg mx-7 my-3">
                         <Link href={'/product/wear-the-code'}>
                             <div className="block relative rounded overflow-hidden">
-                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/718Zji35YcL._SX569_.jpg" />
+                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/A1cLtz3LQbL._SX450_.jpg" />
                             </div>
                             <div className="mt-4">
                                 <h2 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirt</h2>
@@ -102,7 +102,7 @@ const Mugs = () => {
                     <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg mx-7 my-3">
                         <Link href={'/product/wear-the-code'}>
                             <div className="block relative rounded overflow-hidden">
-                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/718Zji35YcL._SX569_.jpg" />
+                                <Image alt="ecommerce" className="object-cover object-center w-full h-full block" width={400} height={400} src="https://m.media-amazon.com/images/I/A1cLtz3LQbL._SX450_.jpg" />
                             </div>
                             <div className="mt-4">
                                 <h2 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirt</h2>
@@ -115,7 +115,7 @@ const Mugs = () => {
                 </div>
             </div>
         </section>
-    )
+  )
 }
 
-export default Mugs
+export default Stickers
