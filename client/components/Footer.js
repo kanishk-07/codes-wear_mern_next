@@ -4,11 +4,11 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="text-gray-400 bg-gray-900 body-font">
+        <footer className="text-gray-400 bg-gray-800 body-font bottom-0">
             <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                     <Link href={'/'} className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-                        <Image src='/logo.webp' alt='' width={200} height={40} />
+                        <Image src='/logo.webp' alt='' width={256} height={48} />
                     </Link>
                     <p className="mt-2 mx-12 text-sm text-gray-500">Wear The Code</p>
                 </div>
