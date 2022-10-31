@@ -13,7 +13,7 @@ const Post = (props) => {
 	const [pin, setPin] = useState('')
 	const [service, setService] = useState(0)
 	const checkServicability = async () => {
-		const pins = await fetch('http://localhost:3000/api/pincode')
+		const pins = await fetch('http://localhost:3000/api/utils/pincode')
 		const pinsJson = await pins.json();
 		if (pinsJson.includes(pin)) {
 			setService(1)
